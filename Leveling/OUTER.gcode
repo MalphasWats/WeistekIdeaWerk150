@@ -17,7 +17,7 @@ G1 X5.0 Y5.0 Z-5.0 F450
 
 G162 Z F450 
 G161 Y X F2500 (Home X axis maximum, go until reaching the end stop.)
-G92 Z144.4 ( Set Bed Height Here )
+G92 Z144.0 ( Set Bed Height Here )
 G92 X-75 Y-75 (set zero for X and Y)
 
 G1 X0 Y0 Z0.300 F500
@@ -54,7 +54,7 @@ G92 Z0.0
 G1 Z1.0 F145 
 G1 X0.0 F3300.0       
 G1 X0.0 Y75.0 F3300.0 
-G1 Z140 F450.0
+G1 Z145 F450.0
 
 M18 (Turn off steppers)
 
